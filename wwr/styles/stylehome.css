@@ -9,23 +9,40 @@ body {
     margin: 0 auto;
     text-align: center; 
 }
-
-#card-img {
-    width: 50%;
+img.wwrlogopic1 {
+    width: 150px;
+    outline: dashed red;
+    display: block;
+    margin: left;
+}
+img.rapidhero {
+    width: 100%;
+    outline: dashed red;
+    display: block;
+    margin: left;
+}
+img.card-img {
+    width: 150px;
     outline: dashed red;
     display: block;
     margin: auto;
 }
+img.mountains {
+    width: 50%;
+    outline: dashed red;
+    display: block;
+    margin: left;
+}
 nav {
     color: #ffffff;
-    background-color: #478d4d;
     font-size: 100%;
     text-align: left; 
 }
 
 nav a:hover {
     background-color: black;
-}
+    color: #d9c2a3;
+}    
 header {
 
     background-color: #478d4d;
@@ -41,9 +58,8 @@ nav a {
     color: #ffffff;
 }
 h1 {
-    color: #129900;
-    font-size: larger;
-    background-color: #00ff37;
+    color: #111111;
+    font-size: 200%;
     /* test */
 }
 
