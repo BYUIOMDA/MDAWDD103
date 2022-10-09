@@ -1,7 +1,7 @@
-#background {
+/* #background {
     height: 725px;
     background-color: white;
-}
+} */
 body {
     background-color: #fad083;
     max-width: 1600px;
@@ -13,9 +13,9 @@ nav {
     background-color: #478d4d;
     font-size: 100%;
 }
-/* header {
-
-} */
+header {
+    background-color: #478d4d;
+}
 /* text-align: center; */
 nav a {
     color: #ffffff;
