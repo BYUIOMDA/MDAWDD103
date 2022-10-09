@@ -7,17 +7,19 @@ body {
     max-width: 1600px;
     font-size: 80%;
     margin: 0 auto;
+    text-align: center; 
 }
 nav {
     color: #ffffff;
     background-color: #478d4d;
     font-size: 100%;
+    text-align: left; 
 }
 header {
 
     background-color: #478d4d;
 }
-content.logo {
+nav.logo {
     text-align: center;
     background-color: #ff0080;
 }
