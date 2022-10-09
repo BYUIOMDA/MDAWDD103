@@ -9,7 +9,12 @@ body {
     margin: 0 auto;
     text-align: center; 
 }
-
+#wwrlogopic1 {
+    width: 50%;
+    outline: dashed red;
+    display: block;
+    margin: auto;
+}
 #card-img {
     width: 50%;
     outline: dashed red;
