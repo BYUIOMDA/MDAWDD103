@@ -16,18 +16,34 @@ nav a {
     color: #ffffff;
 }
 h1 {
-    color: #0400ff;
+    color: #129900;
     font-size: larger;
+    background-color: #00ff37;
     /* test */
 }
 
 footer, footer a, footer a:hover {
     color: #0400ff;
+    background-color: #00b7ff;
 }
 hero-msg {
     text-align: center;
+    background-color: #ff5e00;
 }
 /* text-align: center; */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* #hero-msg h1, #hero-msg h4
