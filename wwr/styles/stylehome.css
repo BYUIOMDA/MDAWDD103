@@ -9,12 +9,7 @@ body {
     margin: 0 auto;
     text-align: center; 
 }
-#wwrlogopic1 {
-    width: 50%;
-    outline: dashed red;
-    display: block;
-    margin: auto;
-}
+
 #card-img {
     width: 50%;
     outline: dashed red;
@@ -27,6 +22,7 @@ nav {
     font-size: 100%;
     text-align: left; 
 }
+
 nav a:hover {
     background-color: black;
 }
@@ -62,7 +58,12 @@ footer a:hover {
     background-color: #000000;
     
 }
-
+#wwrlogopic1 {
+    width: 10%;
+    outline: dashed red;
+    display: block;
+    margin: 0 auto;
+}
 /* text-align: center; */
 
 
