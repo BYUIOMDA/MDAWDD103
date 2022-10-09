@@ -8,9 +8,15 @@ body {
     font-size: 80%;
     margin: 0 auto;
 }
-header {
-    img {    width: 80%;    display: block;    margin: 0 auto;}
+
+
+body hero-msg {
+    text-align: center;
+    background-color: #ff5e00;
 }
+/* header {
+
+} */
 /* text-align: center; */
 nav a {
     color: #ffffff;
@@ -26,10 +32,7 @@ footer, footer a, footer a:hover {
     color: #0400ff;
     background-color: #00b7ff;
 }
-hero-msg {
-    text-align: center;
-    background-color: #ff5e00;
-}
+
 /* text-align: center; */
 
 
