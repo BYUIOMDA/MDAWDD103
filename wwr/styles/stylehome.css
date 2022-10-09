@@ -43,6 +43,7 @@ h1 {
 footer {
     color: #000000;
     background-color: #478d4d;
+    text-align: left; 
 }
 
 footer p {
