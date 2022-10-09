@@ -18,6 +18,9 @@ nav {
     font-size: 100%;
     text-align: left; 
 }
+nav a:hover {
+    background-color: black;
+}
 header {
 
     background-color: #478d4d;
