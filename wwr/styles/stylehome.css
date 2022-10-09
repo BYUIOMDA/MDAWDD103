@@ -8,11 +8,10 @@ body {
     font-size: 80%;
     margin: 0 auto;
 }
-
-
-body hero-msg {
-    text-align: center;
-    background-color: #ff5e00;
+nav {
+    color: #ffffff;
+    background-color: #478d4d;
+    font-size: 100%;
 }
 /* header {
 
