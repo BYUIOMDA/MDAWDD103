@@ -2,11 +2,11 @@ body {
     background-color: #ff0000;
     max-width: 1600px;
     font-size: 80%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 /* text-align: center; */
 nav a {
-    color: #ffffff
+    color: #ffffff;
 }
 h1 {
     color: #0400ff;
