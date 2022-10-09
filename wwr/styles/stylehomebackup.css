@@ -13,7 +13,7 @@ header {
 
     background-color: #478d4d;
 }
-#wwrlogopic1 {
+wwrlogopic1.style {
     width: 50%;
     outline: dashed red;
     display: block;

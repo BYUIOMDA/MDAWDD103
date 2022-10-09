@@ -58,11 +58,11 @@ footer a:hover {
     background-color: #000000;
     
 }
-#card-img {
-    width: 10%;
+header.wwrlogo1 {
+    width: 50%;
     outline: dashed red;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 /* text-align: center; */
 
