@@ -9,6 +9,9 @@ body {
     margin: 0 auto;
     text-align: center; 
 }
+img {
+    max-width: 100%;
+}
 nav {
     color: #ffffff;
     background-color: #478d4d;
