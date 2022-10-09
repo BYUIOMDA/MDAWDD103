@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     text-align: center; 
 }
-img [src="images/logo.jpeg"] {
+#logo {
     outline: #ff0080 thick 40;
 }
 nav {
