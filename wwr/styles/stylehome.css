@@ -1,90 +1,98 @@
+/* #background {
+    height: 725px;
+    background-color: white;
+} */
 body {
-    max-width: 960px;
+    background-color: #fad083;
+    max-width: 1600px;
+    font-size: 80%;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
-  }
-  img {
+    text-align: center; 
+}
+
+#card-img {
+    width: 50%;
+    outline: dashed red;
     display: block;
-    margin: 0 auto;
-    max-width: 300px;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
-  }
-  h2 {
+    margin: auto;
+}
+nav {
+    color: #ffffff;
+    background-color: #478d4d;
+    font-size: 100%;
+    text-align: left; 
+}
+nav a:hover {
+    background-color: black;
+}
+header {
+
+    background-color: #478d4d;
+}
+nav.logo {
     text-align: center;
-  }
-  hr {
-    height: 3px;
-    margin: 35px 0;
-    background: var(--accent1-color);
-  }
-  header {
+    background-color: #ff0080;
+}
+/* text-align: center; */
+nav a {
+    color: #ffffff;
+}
+h1 {
+    color: #129900;
+    font-size: larger;
+    background-color: #00ff37;
+    /* test */
+}
+
+footer {
+    color: #000000;
+    background-color: #478d4d;
+    text-align: left; 
+}
+
+footer a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    
+}
+
+/* text-align: center; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #hero-msg h1, #hero-msg h4
+.button-box
+main section */
+
+
+
+
+
+/* body {
+    color: #666;
+}
+h1 {
+    color: #111;
+}
+content {
+    color: #111;
+}
+.footer {
+    background: #111;
+    color: #666;
+    text-align: center;
     padding: 1em;
-    text-align: center;
-    color: var(--paragraph-color-on-color);
-    background-color: var(--paragraph-background-color);
-  }
-  header > h1, header > h2 {
-    color: var(--headline-color-on-color);
-  }
-  p {
-    font-family: var(--paragraph-font);
-    color: var(--paragraph-color);
-    padding: 1em;
-  }
-  .colors {
-    width: 100%;
-    min-width: 350px;
-    margin: 30px auto;
-    text-align: center;
-  }
-  .colors th {
-    background-color: #999;
-  }
-  .colors td{
-    width: 25%;
-    height: 3em;
-  }
-  .primary {
-    background-color: var(--primary-color);
-  }
-  .secondary {
-    background-color: var(--secondary-color);
-  }
-  .accent1 {
-    background-color: var(--accent1-color);
-  }
-  .accent2{
-    background-color: var(--accent2-color);
-  }
-  p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
-  }
-  nav {
-    background-color: var(--nav-background-color);
-    line-height: 3em;
-    text-align: center;
-    font-size: 1.2em;
-  }
-  nav  {
-    list-style-type: none;
-    display: flex;
-  }
-  nav a {
-    padding:1em;
-    min-width: 120px;
-    text-decoration: none;
-    padding: 10px;
-  }
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
+    font-size: 80%;
+} */
