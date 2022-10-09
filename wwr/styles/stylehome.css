@@ -46,14 +46,10 @@ footer {
     text-align: left; 
 }
 
-footer p {
-    color: #000000;
-    background-color: #478d4d;
-}
-
-footer p:hover {
-    color: #000000;
-    background-color: #478d4d;
+footer a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    
 }
 
 /* text-align: center; */
