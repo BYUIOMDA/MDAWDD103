@@ -4,6 +4,11 @@ body {
     font-size: 80%;
     margin: 0 auto;
 }
+header {
+    img {
+
+    }
+}
 /* text-align: center; */
 nav a {
     color: #ffffff;
