@@ -9,8 +9,8 @@ body {
     margin: 0 auto;
     text-align: center; 
 }
-#content img[src="logo.jpeg"] {
-    border: #00ff37;
+img [src="images/logo.jpeg"] {
+    outline: #ff0080 thick 40;
 }
 nav {
     color: #ffffff;
