@@ -56,7 +56,8 @@ img.card-img {
     /* display: block; */
     margin: 0 auto;
     margin: 200px 0;
-    border: 10px
+    border: 10px;
+    
 }
 img.icon {
     width: 80px;
