@@ -32,8 +32,9 @@ body {
     background-color: var(--primary-color);
     font-family: 'Kanit';
     font-size: 22px;
-    /* margin: 0 auto; */
-    text-align: center; 
+    margin: 0;
+    text-align: center;
+    padding: 0;
 }
 content {
     max-width: 1600px;
@@ -57,6 +58,18 @@ img.card-img {
     border-color: var(--accent3-color);
     
 }
+.button-box {
+    padding-bottom: 125px;
+}
+.rivers-card {
+    padding-bottom: 125px;
+}    
+.rapids-card {
+    padding-bottom: 125px;
+}
+.camping-card {
+    padding-bottom: 125px;
+}
 img.icon {
     /* width: 80px;
     display: outside; */
@@ -67,6 +80,9 @@ img.mountains {
     width: 50%;
     display: block;
     margin: left;
+}
+main section img {
+    box-sizing: border-box;
 }
 nav {
     color: var(--accent1-color);
@@ -126,18 +142,22 @@ main h5 {
     font-size: 200%;
     /* test */
 }
-
+.mountains-card {
+    padding: 25px;
+}
 footer {
     color: #000000;
     background-color: var(--accent3-color);
     text-align: left; 
     padding: 25px 50px;
     margin-top: 200px;
+    font-size: .8em;
 }
 
 footer a:hover {
     color: #ffffff;
-    background-color: #000000;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
     
 }
 header.wwrlogo1 {
