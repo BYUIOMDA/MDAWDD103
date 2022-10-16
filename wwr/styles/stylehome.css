@@ -30,7 +30,7 @@
     --nav-hover-background-color: #e5e5e5;
 }
 body {
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     max-width: 1600px;
     font-size: 80%;
     margin: 0 auto;
@@ -83,8 +83,8 @@ nav.logo {
 
 
 nav a {
-    color: #ffffff;
-    background-color: var(--accent1-color);
+    color: var(--accent1-color);
+    background-color: var(--accent3-color);
     text-decoration: none;
 }
 
