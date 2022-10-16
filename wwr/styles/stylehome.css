@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
 /* #background {
     height: 725px;
     background-color: white;
 } */
+:root {
+    /* changed to reflect water and red rock for the rafting routes in Moab */
+    --primary-color: #2d90d6   ;
+    --secondary-color: #e87121 ;
+    --accent1-color: #e4a473;
+    --accent2-color: white;
+    --accent3-color: #e5e5e5;
+    /* Sorry, needed more color and didn't have time to update the accent layout in html */
+  
+    /* Changed to fit an organized adventure theme but still maintaining universal status in fonts. */
+    --heading-font: "Lato", "Helvetica";
+    --paragraph-font: Kanit, Lato, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #2d90d6;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #2d90d6; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #e4a473  ;
+    --nav-link-color: white;
+    --nav-background-color: #e4a473;
+    --nav-hover-link-color: #e87121;
+    --nav-hover-background-color: #e5e5e5;
+}
 body {
     background-color: #fad083;
     max-width: 1600px;
