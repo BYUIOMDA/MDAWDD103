@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Lato&family=Permanent+Marker&display=swap');
 /* #background {
     height: 725px;
     background-color: white;
@@ -53,10 +52,9 @@ img.rapidhero {
 }
 img.card-img {
     width: 25%;
-    /* display: block; */
-    /* margin: 0 auto;
-    margin: 200px 0; */
-    border: 10px;
+    margin: 0 auto;
+    border: 10px solid;
+    border-color: var(--accent3-color);
     
 }
 img.icon {
@@ -79,6 +77,9 @@ nav {
 nav a:hover {
     background-color: var(--secondary-color);
     color: #ffffff;
+}
+#logo_link{
+    padding-top: 5px;
 }    
 header {
 
@@ -111,8 +112,12 @@ h1 {
     font-size: 200%;
     /* test */
 }
+h2 {
+    margin: 0;
+}
+
 .home-title {
-    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-family: 'Permanent Marker', 'Helvetica', sans-serif;
     font-size: 2em;
 }
 main h5 {
@@ -141,7 +146,9 @@ header.wwrlogo1 {
     margin: auto;
 }
 
-
+footer .social img {
+    padding-top: 15px;
+}
 .book, .join {
     background-color: var(--accent1-color);
     text-decoration: none;
