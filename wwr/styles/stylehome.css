@@ -151,7 +151,7 @@ footer {
     text-align: left; 
     padding: 25px 50px;
     margin-top: 200px;
-    font-size: .8em;
+    font-size: .6em;
 }
 
 footer a:hover {
@@ -190,6 +190,7 @@ footer .social img {
 .msg p {
     padding-bottom: 15px;
     font-size: .8em;
+
 }
 /* text-align: center; */
 
