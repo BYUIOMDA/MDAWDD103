@@ -106,7 +106,7 @@ main h5 {
 
 footer {
     color: #000000;
-    background-color: #478d4d;
+    background-color: var(--accent3-color);
     text-align: left; 
 }
 
