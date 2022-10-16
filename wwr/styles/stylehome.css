@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
 
 /* #background {
@@ -29,7 +30,7 @@
     --nav-hover-background-color: #e5e5e5;
 }
 body {
-    background-color: #fad083;
+    background-color: var(--accent2-color);
     max-width: 1600px;
     font-size: 80%;
     margin: 0 auto;
@@ -61,18 +62,18 @@ img.mountains {
     margin: left;
 }
 nav {
-    color: #ffffff;
+    color: var(--accent1-color);
     font-size: 100%;
     text-align: left; 
 }
 
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color: var(--secondary-color);
+    color: #ffffff;
 }    
 header {
 
-    background-color: #478d4d;
+    background-color: var(--accent3-color);
 }
 nav.logo {
     text-align: center;
@@ -83,6 +84,7 @@ nav.logo {
 
 nav a {
     color: #ffffff;
+    background-color: var(--accent1-color);
     text-decoration: none;
 }
 
