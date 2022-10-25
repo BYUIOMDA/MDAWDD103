@@ -42,9 +42,12 @@ content {
 }
 
 img.wwrlogopic1 {
+    display: block;
     width: 150px;
     display: block;
-    margin: left;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: auto;
 }
 img.rapidhero {
     width: 100%;
