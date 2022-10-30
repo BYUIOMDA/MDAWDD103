@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    text-decoration: none;
+    padding:1em;
+    min-width: 10px;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:link, nav a:visited {
+    color: aquamarine;
+  }
+  nav a:hover {
+    color: royalblue;
+    background-color: rebeccapurple;
+  }
