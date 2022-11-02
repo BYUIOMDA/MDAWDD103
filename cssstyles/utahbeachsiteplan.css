@@ -49,11 +49,20 @@ img {
 .utahbeachblackclass {
   max-width: 300px;
 }
-.coveragemapclass {
+.blacksandsclass {
   max-width: 800px;
 }
+.coveragemapclass {
+  max-width: 400px;
+}
 .founderopclass {
-  max-width: 800px;
+  max-width: 400px;
+}
+.beargrsclass {
+  max-width: 400px;
+}
+.wireframeclass {
+  max-width: 500px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
