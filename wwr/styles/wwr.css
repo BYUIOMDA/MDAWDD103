@@ -131,7 +131,11 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-
+.home-grid2 {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -146,7 +150,25 @@ nav a:hover {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.riverinspiration-card {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
 
+.ram-card {
+    grid-column: 8/10;
+    grid-row: 4/6;
+}
+.um-card {
+    grid-column: 2/4;
+    grid-row: 6/8;
+}
+.faqtext{
+    grid-column: 4/8;
+    grid-row: 3/7;
+    text-align: justify;
+    padding: 20px;
+}
 #background {
     grid-column: 1/11;
     grid-row: 4/9;
