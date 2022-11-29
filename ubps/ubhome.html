@@ -7,64 +7,47 @@
     <title>Home</title>
     <link rel="stylesheet" href="styles/ub.css">
 </head>
+<style>
+    body {
+    /* background-color: #f7f3e8; */
+    margin: 0px;
+    background-image: url("images/headersand.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+</style>
 <body>
     <div id="content"></div>
     <header>
-        <nav>
-            <a href="ubhome.html" target="_blank" >Home</a>
-            <a href="ubaboutus.html" target="_blank" >About Us</a>
-            <img class="ublogo" src="images/Utah Beach-1.png" alt="ublogo image">
-            <a href="ubcontactus.html" target="_blank" >Contact Us</a>
-            <a href="utahbeachsiteplan.html" target="_blank" >Siteplan</a>
-        </nav>
+        <img class="ublogo" src="images/Utah Beach-1.png" alt="ublogo image">
+        <div class="navmenu">
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="ubhome.html" target="_blank">Home</a>
+                <a href="ubaboutus.html" target="_blank">About Us</a>
+                <a href="ubcontactus.html" target="_blank">Contact Us</a>
+              </div>
+            </div> 
+          </div>
     </header>
-        <div id="hero">
-        <div class="hero2">
-            <img id="hero-img" src="images/headersand.jpeg" alt="sandshero">
-            <section id="hero-msg">
-                <h4>Fortune Favors the Bold</h4>
-                <!-- <img class="black-img" src="images/Utah Beach-logos_black.png" alt="ub black logo"> -->
-                <div class="missionstatement">
-                    <p>Here we have our mission statment for utah beach. Utah beach is a consulting and representation LLC for manufacturers, distributers, and dealers. We offer a variety of services. This is to be updated at the direction of the CEO as he decides the message he wants to send ot the general public.</p>
-                </div>
-            </section>
-
-        </div>
-        <div class="hero3">
-            <section class="blacksands-img">
-                <img id="blacksands" src="images/blacksands.jpeg" alt="blacksandspic">
-            <div class="quote">
-                <p>"Dave Anderson goes the extra mile for his customers." - Aleko Jensen</p>
-            </div>
-            </section>
-        </div>
-    </div>
-        </div>        
-        <!-- <main class="main-grid">
-            <section class="ubblack">
-                <img class="black-img" src="images/Utah Beach-logos_black.png" alt="ub black logo">
-            </section>
-            <section class="missionstatement">
-                <p>Here we have our mission statment for utah beach. Utah beach is a consulting and representation LLC for manufacturers, distributers, and dealers. We offer a variety of services. This is to be updated at the direction of the CEO as he decides the message he wants to send ot the general public.</p>
-            </section>
-            <section class="quote">
-                <p>"Dave Anderson goes the extra mile for his customers. - Aleko Jensen"</p>
-            </section>
-        </main> -->
     <footer>
-        <p>Utah Beach &copy; 2022 - Matt Anderson</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-        <p><a href="ubaboutus.html">Contact Us</a></p>
         <div class="social">
-            <a href="https://linkedin.com" target="_blank" >
-                <img src="images/lklogo.png" alt="lk icon">
-            </a>
-            <a href="https://twitter.com" target="_blank" >
-                <img src="images/twlogo.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank" >
-                <img src="images/inlogo.png" alt="instagram icon">
-            </a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/lklogo.png" alt="lk icon"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twlogo.png" alt="twitter icon"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/inlogo.png" alt="instagram icon"></a>
+        </div>
+        <div class="copyright">
+            <p>Utah Beach &copy; 2022 - Matt Anderson</p>
+        </div>
+        <div class="footertext">
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="ubaboutus.html">Contact Us</a></p>
         </div>
     </footer>
 </body>
