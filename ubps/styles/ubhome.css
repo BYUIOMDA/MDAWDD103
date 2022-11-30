@@ -129,6 +129,8 @@ header {
     .hometext {
         background-color: #f0d4af;
         padding: 5px;
+        border: solid black  ;
+        box-shadow: 2px 2px 2px #928e88;
     }
     .hometext h3 {
         font-family: League Gothic;
