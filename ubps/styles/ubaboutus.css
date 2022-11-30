@@ -120,7 +120,7 @@ h4 {
 }
 .aboutus-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     max-height: 800px;
     background-color: #0e67b4;
 }
@@ -201,6 +201,8 @@ img.bear-img {
     max-width: 80%;
     background-color: #26211d;
     border: solid #bab5ae;
+    margin: 10% auto;
+    padding: auto;
 }
 img.founder-img {
     display: block;
@@ -209,6 +211,8 @@ img.founder-img {
     max-width: 80%;
     background-color: #26211d;
     border: solid #bab5ae;
+    margin: 10% auto;
+    padding: auto;
 }
 footer {
     padding: 25px 50px;

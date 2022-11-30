@@ -120,7 +120,7 @@ h4 {
 }
 .contactus-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     max-height: 800px;
     background-color: #0e67b4;
 
@@ -202,6 +202,8 @@ img.coverage-img {
     max-width: 50%;
     background-color: #26211d;
     border: solid #bab5ae;
+    padding: auto;
+
 }
 .feedback {
     background-color: #f0d4af;
