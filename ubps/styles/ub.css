@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/ba69ea70a1f187353aa8dc0ff159cce9?family=Bellfort);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Gothic&family=Miriam+Libre:wght@400;700&family=Newsreader:ital,opsz@0,6..72;1,6..72&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
@@ -48,43 +48,63 @@ header {
 /*Nav Menu*/
   .navmenu {
     overflow: hidden;
+    align-items: center;
+    margin: auto;
+    box-shadow: 5px 5px 5px#928e88;
+    border: solid #bab5ae;
   }
-  
-  .navbar a {
-    float: left;
+  .buttonsub {
+    font-family: 'League Gothic', Courier, monospace;
+    font-size: 100%;
+    font-style: italic;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    margin: 5px;
+    color: white;
   }
-  
   .dropdown {
     float: left;
     overflow: hidden;
   }
   
-  .dropdown .dropbtn {
+  .dropdown .buttonsub {
     border: none;
     margin: 0;
   }
   
-  .navmenu a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+  .navmenu a:hover, .dropdown:hover .buttonsub {
+    background-color: var(--accent1-color);
+    
+    color: var(--secondary-color);
   }
   
-  .dropdown-content {
+  .sitelist {
     display: none;
     position: absolute;
     min-width: 160px;
     z-index: 1;
+    text-align: center;
+    font-family: 'League Gothic', Times, serif;
+    font-style: italic;
+    background-color: white;
+    font-size: 90%;
+    box-shadow: 5px 5px 5px#928e88;
   }
   
-  .dropdown-content a {
+  .sitelist a {
     float: none;
     display: block;
+    color: var(--secondary-color);
+    text-decoration: none;
   }
   
-  .dropdown-content a:hover {
-    background-color: #ddd;
+  .sitelist a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: underline;
   }
   
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .sitelist {
     display: block;
   }
 /*Old Nav Format*/
@@ -208,6 +228,7 @@ home-grid {
     opacity: 100%;
     z-index: 4;
     position: relative;
+    box-shadow: 2px 2px 2px #bab5ae;
 
 }
 
