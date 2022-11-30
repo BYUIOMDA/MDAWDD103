@@ -243,11 +243,34 @@ img.black-img {
     border-width: 2px;
     line-height: 0.5;
     padding: 1px;
-
     position: absolute;
     margin: 0 auto;
 }
-
+img.bear-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    background-color: #26211d;
+    border: solid #bab5ae;
+}
+img.founder-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    background-color: #26211d;
+    border: solid #bab5ae;
+}
+img.coverage-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    background-color: #26211d;
+    
+    border: solid #bab5ae;
+}
 footer {
     padding: 25px 50px;
     margin-top: 200px;
