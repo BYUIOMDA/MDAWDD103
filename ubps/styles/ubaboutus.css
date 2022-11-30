@@ -131,6 +131,12 @@ h4 {
     background-color: #f0d4af;
     padding: 5px;
 }
+.aboutustext h3 {
+    font-family: League Gothic;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}
 #hero-img {
     width: 100%;
     max-height: 800px;
