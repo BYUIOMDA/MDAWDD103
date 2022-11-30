@@ -195,6 +195,14 @@ header {
     img.platestop-img {
         max-width: 80%;
     }
+    .hometext{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 500px;
+    }
     footer {
         padding: 25px 50px;
         margin-top: 200px;
