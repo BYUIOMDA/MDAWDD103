@@ -107,52 +107,7 @@ header {
   .dropdown:hover .sitelist {
     display: block;
   }
-/*Old Nav Format*/
-nav {
-    display: flex;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 2px 2px 2px black;
-    position: relative;
-    background-color: var(--accent3-color);
-    border-radius: 50%;
-}
 
-nav a {
-    /* layout */
-    z-index: 1;
-    /* dimension */
-    margin: auto;
-    padding: 1em;
-    max-height: 50px;
-    display: flex;
-    justify-content: space-around;
-    min-width: 100px;
-    width: max-content;
-    padding-left: 15px;
-    padding-right: 15px;
-    /* aesthetic */
-    color: #f7f3e8;
-    opacity: 100%;
-    border-radius: 50%;
-    /* text */
-    font-size: 1em;
-    font-family: Roboto;
-    font-style: italic;
-    font-stretch: 10px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #26211d;
-}
-
-nav a:hover {
-    background-color: var(--secondary-color);
-    color: white;
-    opacity: 100%;
-    box-shadow: 2px 2px 2px black;
-}
 h4 {
     text-align: center;
     position: relative;
@@ -163,10 +118,12 @@ h4 {
     padding-bottom: 25px;
     font-style: italic;
 }
-home-grid {
+.contactus-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     max-height: 800px;
+    background-color: #0e67b4;
+
 }
 #hero-img {
     width: 100%;
@@ -237,39 +194,17 @@ home-grid {
     align-items: center;
     align-content: center;
 }
-img.black-img {
-    max-width: 350px;
-    vertical-align: middle;
-    border-width: 2px;
-    line-height: 0.5;
-    padding: 1px;
-    position: absolute;
-    margin: 0 auto;
-}
-img.bear-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 20%;
-    background-color: #26211d;
-    border: solid #bab5ae;
-}
-img.founder-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 20%;
-    background-color: #26211d;
-    border: solid #bab5ae;
-}
+
 img.coverage-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 50%;
     background-color: #26211d;
-    
     border: solid #bab5ae;
+}
+.feedback {
+    background-color: #f0d4af;
 }
 footer {
     padding: 25px 50px;
