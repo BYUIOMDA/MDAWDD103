@@ -119,11 +119,11 @@ h4 {
     font-style: italic;
 }
 .contactus-grid {
-            /* testing */
     margin-top: 50px;
     display: grid;
     grid-template-columns: 70% 1fr;
     max-height: 800px;
+    /* background-color:#bab5ae90; */
     background-color:#bab5ae90;
     padding: 2%;
 }

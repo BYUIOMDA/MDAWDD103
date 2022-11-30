@@ -119,11 +119,11 @@ h4 {
     font-style: italic;
 }
 .aboutus-grid {
-            /* testing */
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-height: 800px;
+    /* background-color:#bab5ae90; */
     background-color:#bab5ae90;
     padding: 2%;
 }
