@@ -118,10 +118,16 @@ header {
       font-style: italic;
     }
     .home-grid {
+        margin-top: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-height: 800px;
-        background-color: #0e67b4;
+        background-color:#bab5ae90;
+        padding: 2%;
+    }
+    .hometext {
+        background-color: #f0d4af;
+        padding: 5px;
     }
     #hero-img {
         width: 100%;
@@ -196,6 +202,8 @@ header {
         max-width: 80%;
         margin: 10% auto;
         padding: auto;
+        border: solid var(--accent3-color);
+        margin-left: 50px;
     }
     .hometext{
         text-align: center;

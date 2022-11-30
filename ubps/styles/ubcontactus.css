@@ -119,11 +119,16 @@ h4 {
     font-style: italic;
 }
 .contactus-grid {
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 70% 1fr;
     max-height: 800px;
-    background-color: #0e67b4;
-
+    background-color:#bab5ae90;
+    padding: 2%;
+}
+.contactustext {
+    background-color: #f0d4af;
+    padding: 5px;
 }
 #hero-img {
     width: 100%;
@@ -199,14 +204,16 @@ img.coverage-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
+    max-width: 75%;
     background-color: #26211d;
     border: solid #bab5ae;
     padding: auto;
 
 }
-.feedback {
+#feedback {
     background-color: #f0d4af;
+    grid-column: 2/2;
+    grid-row: 2/2;
 }
 footer {
     padding: 25px 50px;
