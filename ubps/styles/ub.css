@@ -57,10 +57,10 @@ header {
     font-family: 'League Gothic', Courier, monospace;
     font-size: 100%;
     font-style: italic;
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     padding: 5px;
     margin: 5px;
-    color: white;
+    color: var(--secondary-color);
   }
   .dropdown {
     float: left;
@@ -73,9 +73,9 @@ header {
   }
   
   .navmenu a:hover, .dropdown:hover .buttonsub {
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     
-    color: var(--secondary-color);
+    color: var(--accent1-color);
   }
   
   .sitelist {
@@ -86,7 +86,7 @@ header {
     text-align: center;
     font-family: 'League Gothic', Times, serif;
     font-style: italic;
-    background-color: white;
+    background-color: var(--accent1-color);
     font-size: 90%;
     box-shadow: 5px 5px 5px#928e88;
   }
