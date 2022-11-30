@@ -123,6 +123,7 @@ header {
         grid-template-columns: 1fr 1fr;
         max-height: 800px;
         background-color:#bab5ae90;
+        /* testing */
         padding: 2%;
     }
     .hometext {
