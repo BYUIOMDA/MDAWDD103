@@ -46,7 +46,6 @@ body {
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    grid-column: 1/2;
     display: block;
     border: solid var(--paragraph-background-color);
     opacity: 100%;
@@ -111,18 +110,22 @@ body {
 .dropdown:hover .sitelist {
     display: block;
 }
+
+
+/* Main Content */
 .home-grid {
     margin-top: 50px;
     display: flex;
-    grid-template-columns: 1fr 1fr;
-    max-height: 800px;
       /* background-color:#bab5ae90; */
     background-color:#bab5ae90;
     padding: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    justify-content: space-around;
+    align-items: center;
 }
 .hometext h3 {
     font-family: League Gothic;
-    font-style: italic;
     text-align: center;
     font-size: 50px;
 }
@@ -131,9 +134,26 @@ body {
     padding: 5px;
     border: solid black  ;
     box-shadow: 2px 2px 2px #928e88;
+    flex-direction: column;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    order: 2;
+    margin: 10px;
 }
-    
-.missionstatement p {
+img.platestop-img {
+    max-width: 80%;
+    padding: 5px;
+    margin: 10px;
+    border: solid var(--accent3-color);
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+}
+/* .missionstatement p {
     position: relative;
     top: 50%;
     left: 50%;
@@ -144,35 +164,9 @@ body {
     font-size: 22px;
     background-color: var(--accent2-color);
     margin: 25px;
-}
-    
-    
-#hero{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-}
-    
-#hero-msg{
-    vertical-align: middle;
-    align-items: center;
-    align-content: center;
-}
-img.platestop-img {
-    max-width: 80%;
-    margin: 10% auto;
-    padding: 5px;
-    border: solid var(--accent3-color);
-    margin-left: 50px;
-}
-.hometext{
-    text-align: center;
-    display: block;
-    position: relative;
-    width: 50%;
-    margin: 0 auto;
-}
-    
+} */
+
+ 
     /* Footer */
 footer {
     padding: 5px 50px;
@@ -181,13 +175,12 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color:  var(--nav-hover-background-color);
-       border: 3px solid black;
+    border: 3px solid black;
     height: auto;
 }
     
 footer p {
     font-size: 1em;
-        
 }
     
 footer p a:hover {
@@ -206,8 +199,8 @@ footer .copyright {
     
   
 @media screen and (max-width: 900px) {
-    nav{
-        flex-direction: row;
+    .home-grid {
+        flex-direction: column;
     }
     footer{
         flex-direction: column;
