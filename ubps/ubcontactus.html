@@ -1,100 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactus</title>
-    <link rel="stylesheet" href="styles/ubcontactus.css">
-</head>
-<style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ContactUs</title>
+  <link rel="stylesheet" href="styles/ubcontactus.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Gothic&family=Miriam+Libre:wght@400;700&family=Newsreader:ital,opsz@0,6..72;1,6..72&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  <style>
     body {
-    /* background-color: #f7f3e8; */
-    margin: 0px;
-    background-image: url("images/headersand.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-}
-</style>
+      /* background-color: #f7f3e8; */
+      margin: 0px;
+      background-image: url("images/headersand.jpeg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      width: 100%;
+      }
+  </style>
+</head>
 <body>
     <header>
         <img class="ublogo" src="images/UtahBeach.png" alt="ublogo image">
         <div class="navmenu">
             <div class="dropdown">
-              <button class="buttonsub">Navigation 
+              <button class="buttonsub">Menu 
               </button>
               <div class="sitelist">
-                <a href="ubhome.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="ubaboutus.html">About Us</a>
                 <a href="ubcontactus.html">Contact Us</a>
               </div>
             </div> 
           </div>
     </header>
-        <main class="contactus-grid">
-            <section class="contactimage">
-                <img class="coverage-img" src="images/coveragemap.png" alt="coveragemap">
-            </section>
-            <section class="contactustext">
-                <h3>LOREM IPSUM</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <!-- <p>We have this email, this phone number, these are our contact hours, these are our business hours. We have this social media platform and this one too. This is the states we serve these states.</p> -->
-            </section>
-            <div id="feedback">
-            <form action="midway.php" method="post">
-                <ul>
-                  <li>
-                    <label for="name">Name:</label>=
-                    <input type="text" id="name" name="user_name" />
-                  </li>
-                  <li>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_email" />
-                  </li>
-                  <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                  </li>
-                  <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-                </ul>
-              </form> 
-            </div>
-        </main>
-        <footer>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/dave-anderson-933373199/" target="_blank"><img src="images/lklogo.png" alt="lk icon"></a>
-                <a href="https://mobile.twitter.com/utah_beach/" target="_blank"><img src="images/twlogo.png" alt="twitter icon"></a>
-                <a href="https://www.instagram.com/utahbeachus/" target="_blank"><img src="images/inlogo.png" alt="instagram icon"></a>
-            </div>
-            <div class="copyright">
-                <p>Utah Beach &copy; 2022 - Matt Anderson</p>
-            </div>
-            <div class="footertext">
-                <p><a href="site-plan-rafting.html">Site Plan</a></p>
-                <p><a href="ubaboutus.html">Contact Us</a></p>
-            </div>
-        </footer>
-        <script>
+    <main class="contactus-grid">
+        <div class="contactimage">
+            <img class="coverage-img" src="images/coveragemap.png" alt="coveragemap">
+        </div>
+        <section class="contactustext">
+            <h3>LOREM IPSUM</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <!-- <p>We have this email, this phone number, these are our contact hours, these are our business hours. We have this social media platform and this one too. This is the states we serve these states.</p> -->
+        </section>
+        <div id="feedback">
+        <form action="midway.php" method="post">
+          <ul>
+            <li>
+              <label for="name">Name:</label>=
+              <input type="text" id="name" name="user_name"/>
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email"/>
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Send your message</button>
+            </li>
+          </ul>
+        </form> 
+      </div>
+    </main>
+    <footer>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/dave-anderson-933373199/" target="_blank"><img src="images/lklogo.png" alt="lk icon"></a>
+          <a href="https://mobile.twitter.com/utah_beach/" target="_blank"><img src="images/twlogo.png" alt="twitter icon"></a>
+          <a href="https://www.instagram.com/utahbeachus/" target="_blank"><img src="images/inlogo.png" alt="instagram icon"></a>
+        </div>
+        <div class="copyright">
+          <p>Utah Beach &copy; 2022 - Matt Anderson</p>
+        </div>
+        <div class="footertext">
+          <p><a href="site-plan-rafting.html">Site Plan</a></p>
+          <p><a href="ubaboutus.html">Contact Us</a></p>
+        </div>
+    </footer>
+    <script>
             // get the feedback div element so we can do something with it.
-            const feedbackElement = document.getElementById('feedback');
+      const feedbackElement = document.getElementById('feedback');
             // get the form so we can read what was entered in it.
-            const formElement = document.forms[0];
+      const formElement = document.forms[0];
             // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-            formElement.addEventListener('submit', function(e) {
+      formElement.addEventListener('submit', function(e) {
                 // stop the form from doing the default action.
-                e.preventDefault();
+        e.preventDefault();
                 // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
                 // make the feedback element visible.
-                feedbackElement.style.display = "block";
+        feedbackElement.style.display = "block";
                 // add a class to move everything down so our message doesn't cover it.
-                document.body.classList.toggle('moveDown');
-            });
-        </script>
+        document.body.classList.toggle('moveDown');
+      });
+    </script>
 </body>
 </html>
