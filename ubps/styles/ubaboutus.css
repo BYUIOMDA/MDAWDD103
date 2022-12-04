@@ -18,7 +18,7 @@
     margin-right: 1%;
     justify-content: space-around;
     margin: 10px;
-    /* align-items: center; */
+    align-items: center;
 }
 .aboutustext {
     background-color: #f0d4af;
@@ -70,8 +70,8 @@
     flex-wrap: column;
     align-items: center;
     margin: 15px;
-    min-width: 33%;
-    min-height: 33%;
+    min-width: 25%;
+    min-height: 25%;
 }
 
 

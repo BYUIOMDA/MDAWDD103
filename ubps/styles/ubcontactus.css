@@ -26,7 +26,7 @@
     box-shadow: 2px 2px 2px #928e88;
     flex-wrap: column;
     display: block;
-    text-align: center;
+    text-align: left;
     position: relative;
     justify-content: space-around;
     /* align-items: center; */
