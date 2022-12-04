@@ -70,8 +70,10 @@
     flex-wrap: column;
     align-items: center;
     margin: 15px;
-    min-width: 25%;
-    min-height: 25%;
+    min-width: 200px;
+    min-height: 200px;
+    padding: auto;
+    align-items: center;
 }
 
 
@@ -83,11 +85,16 @@
     margin: 15px;
     /* min-width: 50%;
     min-height: 50%; */
+    padding: auto;
 }
 
 @media screen and (max-width: 900px) {
     .aboutus-grid{
         flex-direction: column;
+    }
+    .aboutusfur {
+        max-width: 250px;
+        align-items: center;
     }
     footer{
         flex-direction: column;
