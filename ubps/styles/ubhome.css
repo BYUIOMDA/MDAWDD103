@@ -35,7 +35,7 @@
     padding: 0px;
     border: solid black  ;
     box-shadow: 2px 2px 2px #928e88;
-    flex-wrap: column;
+    flex-wrap: wrap;
     display: block;
     text-align: center;
     position: relative;
@@ -44,7 +44,7 @@
     order: 2;
     /* margin: 10px; */
     max-width: 100%;
-    margin: 5 auto;
+    margin: 15px;
 }
 .hometext p {
     text-align: left;
@@ -53,10 +53,8 @@
 img.platestop-img {
     max-width: 100%;
     border: solid var(--accent3-color);
-    flex-wrap: column;
+    flex-wrap: wrap;
     align-items: center;
-    order: 1;
-    margin: 5 auto;
     min-width: 35%;
     min-height: 35%;
 }
